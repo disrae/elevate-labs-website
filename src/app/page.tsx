@@ -11,7 +11,11 @@ export default function Home() {
       before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px]\
       ">
         <p className="text-4xl py-4 z-2 text-slate-200">Elevate Labs</p>
-        <p className="text-xl py-4 text-slate-100">Coming Soon...</p>
+        <p className="text-xl py-4 text-slate-100">Coming Soon
+          <span className="dot-anim">.</span>
+          <span className="dot-anim">.</span>
+          <span className="dot-anim">.</span>
+        </p>
       </div>
 
     </main>

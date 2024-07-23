@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes dot {
+  0% { opacity: 0; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.dot-anim {
+  display: inline-block;
+  opacity: 0;
+  animation: dot 1.75s infinite;
+}
+
+.dot-anim:nth-of-type(1) {
+  animation-delay: 0.33s;
+}
+
+.dot-anim:nth-of-type(2) {
+  animation-delay: 0.66s;
+}
+
+.dot-anim:nth-of-type(3) {
+  animation-delay: 0.9s;
+}
