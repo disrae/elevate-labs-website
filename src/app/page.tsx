@@ -1,9 +1,15 @@
 import Image from "next/image";
+import Starfield from "react-starfield";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-8 bg-black">
-
+      <Starfield
+        starCount={1000}
+        starColor={[255, 255, 255]}
+        speedFactor={0.05}
+        backgroundColor="black"
+      />
       <div className="relative z-[1] flex flex-col place-items-center animate-pulse \
       before:absolute before:h-[300px] before:w-full \
       before:-translate-x-1/2 before:rounded-full \
